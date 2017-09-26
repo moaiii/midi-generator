@@ -12,6 +12,14 @@
     "ejs": "~2.5.6",
     "express": "~4.15.2",
     "morgan": "~1.8.1",
-    "serve-favicon": "~2.4.2"
+    "serve-favicon": "~2.4.2",
+    "aws-sdk": "^2.112.0",
+    "jsmidgen": "^0.1.5",
+    "s3-upload-stream": "^1.0.7"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.112.0",
+    "jsmidgen": "^0.1.5",
+    "s3-upload-stream": "^1.0.7"
   }
 }
