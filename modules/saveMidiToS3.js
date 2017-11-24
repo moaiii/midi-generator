@@ -21,8 +21,8 @@ module.exports = (s3Bucket, s3Key, midiFilePath) => {
 
       var s3 = new AWS.S3({
         apiVersion: '2006-03-01',
-        accessKeyId: process.env.KEY,
-        secretAccessKey: process.env.SECRET,
+        // accessKeyId: process.env.KEY,
+        // secretAccessKey: process.env.SECRET,
         region: "eu-west-1"
       });
       
